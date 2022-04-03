@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Bootstrap v5 -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="./images/logo/main-logo.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="navbar">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo-image" href="index.html">
+                <img src="images/logo/main-logo.png" alt="alternative">
+                <span class="logo-text">Hein Htet</span>
+            </a>
+            <button class="toggler navbar-toggler" id="nav-toggle" type="button">
+                <i class="uil uil-bars"></i>
+            </button>
+            <div class="nav-item-wrapper" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="social-icon facebook"><i class="uil uil-facebook-f"></i></div>
+                        </a>
+                        <a href="#">
+                            <div class="social-icon instagram"><i class="uil uil-instagram"></i></div>
+                        </a>
+                        <a href="#">
+                            <div class="social-icon github"><i class="uil uil-github"></i></div>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+
+    <!-- Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="row g-3 hero">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 header-profile">
+                    <img src="./images/profile/undraw_profile_pic_ic-5-t.svg" class="img-fluid rounded-3" alt="profile img" width="60%" height="60%">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 order-md-first header-text">
+                    <div>
+                        <h1> Heyy, I am <span class="primary-color">Hein Htet,</span></h1>
+                        <p class="fs-4"> A passionate web developer living in Yangon </p>
+                        <a class="btn-solid page-scroll" href="#about">Discover</a>
+                        <a href="#contact" class="btn-link page-scroll">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-arrow position-absolute bottom-0 start-50 my-3">
+            <a href="#about" class="btn-down page-scroll "> <i class="uil uil-angle-double-down"></i> </a>
+        </div>
+    </header>
+    <!-- End of Header  -->
+
+    <!-- About -->
+    <section id="about" class="bg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h2 class="section-title">
+                        About Me
+                    </h2>
+                </div>
+            </div>
+            <div class="row g-3 gy-5">
+                <div class="col-md-6">
+                    <h4 class="pb-3">
+                        <img src="./images/logo/bg-logo.png" alt="">
+                        <span> Hein Htet </span>
+                    </h4>
+                    <p>
+                        I'm a junior web developer from Yangon, Myanmar. I'm good at PHP-Laravel and also good at making fully responsive and eye-catching web design. I love to create beautiful and perfect web applications. I'm looking forward to talk with you about our work.
+                    </p>
+                    <a class="btn-solid-cv page-scroll" href="#about">Download CV</a>
+                </div>
+                <div class="col-md-6">
+                    <table class="table">
+                        <tr>
+                            <td>Age</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>Residence</td>
+                            <td>Myanmar</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Yangon, Myanmar</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>
+                                <a href="mailto:hhein1911@gmail.com">hhein1911@gmail.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>
+                                <a href="tel:+959123123456">+959 123 123 456</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Freelance</td>
+                            <td>
+                                <span class="text-success">Available</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of About -->
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h2 class="section-title">
+                        Services
+                    </h2>
+                    <p class="section-subtitle text-center">
+                        I can help you with the following services
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="uil uil-mobile-android"></i>
+                        <h4> Responsive Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugiat!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="uil uil-brackets-curly"></i>
+                        <h4> Web Applications Development </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugiat!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i class="uil uil-wrench"></i>
+                        <h4> Redesign and Maintain Websites </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugiat!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>
+                        Welcome to your next Website!
+                    </h1>
+
+                    <div class="icons-container">
+                        <img src="images/brands/details-icon-photoshop.png" alt="alternative">
+                        <img src="images/brands/details-icon-illustrator.png" alt="alternative">
+                        <img src="images/brands/details-icon-html.png" alt="alternative">
+                        <img src="images/brands/details-icon-css.png" alt="alternative">
+                        <img src="images/brands/details-icon-bootstrap.png" alt="alternative">
+                        <img src="images/brands/details-icon-javascript.png" alt="alternative">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h2 class="section-title">
+                        Projects
+                    </h2>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-sm-12 col-md-6">
+                    <div class="project-box">
+                        <div class="project-image">
+                            <img src="./images/projects_img/project-1.jpg" alt="">
+                            <div class="project-image-overlay">
+                                <div class="project-title">
+                                    <h4> Title One </h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nesciunt!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="project-box">
+                        <div class="project-image">
+                            <img src="./images/projects_img/project-2.jpg" alt="">
+                            <div class="project-image-overlay">
+                                <div class="project-title">
+                                    <h4> Title Two </h4>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptas quas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="project-box">
+                        <div class="project-image">
+                            <img src="./images/projects_img/project-3.jpg" alt="">
+                            <div class="project-image-overlay">
+                                <div class="project-title">
+                                    <h4> Title Three </h4>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptas quas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="project-box">
+                        <div class="project-image">
+                            <img src="./images/projects_img/project-4.jpg" alt="">
+                            <div class="project-image-overlay">
+                                <div class="project-title">
+                                    <h4> Title Four </h4>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptas quas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Projects -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h2 class="section-title">
+                        Contact Me
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-none d-lg-block d-xl-block text-center">
+                    <img src="./images/contact/undraw_social_networking_re_i1ex.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6 d-flex align-items-center">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-box">
+                                    <div class="contact-icon"><i class="uil uil-map-marker"></i></div>
+                                    <div class="contact-text"> Yangon, Myanmar</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-box">
+                                    <div class="contact-icon"><i class="uil uil-phone"></i></div>
+                                    <div class="contact-text">
+                                        <a href="tel:+959123123456" class="link"> +959 123 123 456</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-box">
+                                    <div class="contact-icon"><i class="uil uil-at"></i></div>
+                                    <div class="contact-text">
+                                        <a href="mailto:hhein1911@gmail.com" class="link">hhein1911@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-box">
+                                    <div class="contact-icon"><i class="uil uil-facebook-messenger"></i></div>
+                                    <div class="contact-text">
+                                        <a href="https://m.me/h.htet01" class="link" target="_blank">Direct Message</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#home" class="back-to-top">
+        <i class="uil uil-angle-up"></i>
+    </a>
+    <footer>
+        <h6> Copyright &copy 2022 Hein Htet </h6>
+    </footer>
+    <!-- Jquery -->
+    <script src="./assets/js/jquery.js"></script>
+    <!-- bootstrap v6 -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery-easing -->
+    <script src="./assets/js/jquery.easing.js"></script>
+
+    <!-- Custom -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
