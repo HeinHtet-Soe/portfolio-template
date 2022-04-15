@@ -284,7 +284,7 @@ nav .logo-image img {
         top: 70px;
         left: 100%;
         width: 100%;
-        height: calc(100% - 70px);
+        height: 100%;
         background-color: var(--dark-color);
         transition: all 0.5s ease-in-out;
         z-index: 999;
@@ -297,7 +297,7 @@ nav .logo-image img {
         left: 0;
         width: 100%;
         height: 100%;
-        transition: all 0.5s ease-in-out;
+        transition: var(--transition-05);
     }
     .navbar-nav {
         display: flex;
@@ -310,9 +310,6 @@ nav .logo-image img {
         width: 100%;
         text-align: center;
     }
-    .navbar-nav .nav-item:hover {
-        background-color: #47A0c2;
-    }
 }
 
 
@@ -324,7 +321,7 @@ nav .logo-image img {
 header {
     padding-top: 70px;
     width: 100%;
-    height: calc(100vh);
+    height: 100vh;
     background-image: url("../images/background/Hexagon.svg");
     background-size: cover;
     background-attachment: fixed;
@@ -522,6 +519,8 @@ header .container {
     justify-content: center;
     background-color: var(--dark-color);
     border-radius: 10px;
+    width: 50%;
+    height: auto;
 }
 
 .contact-box .contact-icon {
@@ -551,6 +550,19 @@ header .container {
 
 .contact-box .contact-text .link:hover {
     color: var(--white-color);
+}
+
+.contact-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:991px) {
+    .contact-box {
+        margin-bottom: 1.5rem;
+        padding: 35px 15px 25px 15px;
+        font-size: 15px;
+    }
 }
 
 
@@ -586,7 +598,7 @@ a.back-to-top {
 }
 
 a.back-to-top i {
-    color: var(--light-color);
+    color: var(--primary-color);
     font-size: 22px;
     transition: var(--transition-05);
 }
